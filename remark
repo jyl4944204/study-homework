@@ -1,0 +1,6 @@
+#1 运行执行的feature并将结果保存到本地的目录中：pytest test_link.py -vs --allure-features=""登录成功" --alluredir=./result2
+#2、生成allure测试报告并保存到本地：allure generate ./result2
+#3、生成报告到执行文件夹：allure generate ./result2 -o report
+#4、启动服务并打开测试报告 ：allure serve ./result2
+#5、指定级别运行测试用例：pytest test_sevennity.py --allure-severities="normal" -vs
+#6、本地开启服务指定端口号供其他人查看 allure open -h 10.0.0.104 -p 8883 ./allure-report
