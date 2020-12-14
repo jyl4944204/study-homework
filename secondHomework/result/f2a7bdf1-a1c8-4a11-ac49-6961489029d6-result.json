@@ -1,0 +1,69 @@
+{
+  "name": "乘法",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 2 == 0\n +  where 0 = <bound method Caluctor.mul of <secondHomework.calcu.Caluctor object at 0x000001B103A9D7F0>>(0, 2)\n +    where <bound method Caluctor.mul of <secondHomework.calcu.Caluctor object at 0x000001B103A9D7F0>> = <secondHomework.calcu.Caluctor object at 0x000001B103A9D7F0>.mul",
+    "trace": "a = 0, b = 2, expect = 2\nmyfixture = <secondHomework.calcu.Caluctor object at 0x000001B103A9D7F0>\n\n    @pytest.mark.run(order=2)\n    @pytest.mark.parametrize(\"a,b,expect\",get_data(\"muldatas\"))\n    @allure.title(\"乘法\")\n    def test_mul(a,b,expect,myfixture):\n        calc = myfixture\n>       assert expect == calc.mul(a,b)\nE       assert 2 == 0\nE        +  where 0 = <bound method Caluctor.mul of <secondHomework.calcu.Caluctor object at 0x000001B103A9D7F0>>(0, 2)\nE        +    where <bound method Caluctor.mul of <secondHomework.calcu.Caluctor object at 0x000001B103A9D7F0>> = <secondHomework.calcu.Caluctor object at 0x000001B103A9D7F0>.mul\n\ntest_calc_fixture.py:28: AssertionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "6f2bcaec-d6aa-4906-bf21-d1475481e53d-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "0"
+    },
+    {
+      "name": "b",
+      "value": "2"
+    },
+    {
+      "name": "expect",
+      "value": "2"
+    }
+  ],
+  "start": 1607925944101,
+  "stop": 1607925944102,
+  "uuid": "d880ecaf-31ae-486c-b1ac-e8c055b39d76",
+  "historyId": "2385ddad0871b217d8101f0e1f8be1d4",
+  "testCaseId": "1e98a3edbafaa583243a606b6d185a43",
+  "fullName": "secondHomework.test_calc_fixture#test_mul",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "parentSuite",
+      "value": "secondHomework"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc_fixture"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MODN6H0"
+    },
+    {
+      "name": "thread",
+      "value": "22668-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "secondHomework.test_calc_fixture"
+    }
+  ]
+}

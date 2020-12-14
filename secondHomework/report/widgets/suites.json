@@ -1,0 +1,17 @@
+{
+  "total": 1,
+  "items": [
+    {
+      "uid": "d579f6d5f26f9d8feeece1669e1037b3",
+      "name": "secondHomework",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 12,
+        "unknown": 0,
+        "total": 12
+      }
+    }
+  ]
+}

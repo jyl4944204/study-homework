@@ -1,0 +1,137 @@
+{
+  "uid": "69b3af0d83d26bc5",
+  "name": "减法",
+  "fullName": "secondHomework.test_calc_fixture#test_sub",
+  "historyId": "186cd934cd5848825ebdc85ff70abb8f",
+  "time": {
+    "start": 1607925562411,
+    "stop": 1607925562411,
+    "duration": 0
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "myfixture",
+      "time": {
+        "start": 1607925562410,
+        "stop": 1607925562410,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "passed",
+    "steps": [],
+    "attachments": [
+      {
+        "uid": "6c38ca3f328675e7",
+        "name": "stdout",
+        "source": "6c38ca3f328675e7.txt",
+        "type": "text/plain",
+        "size": 7
+      }
+    ],
+    "parameters": [],
+    "attachmentsCount": 1,
+    "shouldDisplayMessage": false,
+    "stepsCount": 0,
+    "hasContent": true
+  },
+  "afterStages": [
+    {
+      "name": "myfixture::0",
+      "time": {
+        "start": 1607925562412,
+        "stop": 1607925562412,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "parentSuite",
+      "value": "secondHomework"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc_fixture"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MODN6H0"
+    },
+    {
+      "name": "thread",
+      "value": "24068-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "secondHomework.test_calc_fixture"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "300"
+    },
+    {
+      "name": "b",
+      "value": "200"
+    },
+    {
+      "name": "expect",
+      "value": "100"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": [
+      "run(order=4)"
+    ]
+  },
+  "source": "69b3af0d83d26bc5.json",
+  "parameterValues": [
+    "300",
+    "200",
+    "100"
+  ]
+}

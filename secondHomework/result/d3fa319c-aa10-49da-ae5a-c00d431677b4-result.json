@@ -1,0 +1,65 @@
+{
+  "name": "除法",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "dd3a43df-253a-4a0b-aa55-e17f67a4fdc7-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "2"
+    },
+    {
+      "name": "b",
+      "value": "1"
+    },
+    {
+      "name": "expect",
+      "value": "2"
+    }
+  ],
+  "start": 1607925944218,
+  "stop": 1607925944219,
+  "uuid": "c0deb8fe-711d-44e5-824d-13c6a8c328a9",
+  "historyId": "266eb2b5580f3a6bfdfc2bc6d24e8920",
+  "testCaseId": "5076effb625ea2322077a03ccb8b7b91",
+  "fullName": "secondHomework.test_calc_fixture#test_div",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=3)"
+    },
+    {
+      "name": "parentSuite",
+      "value": "secondHomework"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc_fixture"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MODN6H0"
+    },
+    {
+      "name": "thread",
+      "value": "22668-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "secondHomework.test_calc_fixture"
+    }
+  ]
+}

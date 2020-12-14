@@ -15,7 +15,8 @@ class TestCalc:
     def test_add(self,a,b,expect):
         assert expect == self.calc.add(a,b)
     #减法测试
-    @pytest.mark.parametrize("a,b,expect",[(3,5,-2),(-1,-2,1),(100,300,-200)],ids=["int_sub","minu_sub",'bigint_sub'])
+    @pytest.mark.parametrize("a,b,expect", [(3, 5, -2), (-1, -2, 1), (100, 300, -100)],
+                             ids=["int_sub", "minu_sub", 'bigint_sub'])
     def test_sub(self,a,b,expect):
         assert expect == self.calc.sub(a,b)
     #乘法测试

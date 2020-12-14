@@ -2,7 +2,6 @@ import pytest
 import allure
 import requests
 
-
 # 1 运行执行的feature并将结果保存到本地的目录中：pytest test_link.py -vs --allure-features=""登录成功" --alluredir=./result2
 # 2、生成allure测试报告并保存到本地：allure generate ./result2
 # 3、生成报告到执行文件夹：allure generate ./result2 -o report

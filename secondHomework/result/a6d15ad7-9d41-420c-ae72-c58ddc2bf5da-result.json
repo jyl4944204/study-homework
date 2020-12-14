@@ -1,0 +1,69 @@
+{
+  "name": "除法",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 2 == 1.0\n +  where 1.0 = <bound method Caluctor.div of <secondHomework.calcu.Caluctor object at 0x000001B103A22AC0>>(100, 100)\n +    where <bound method Caluctor.div of <secondHomework.calcu.Caluctor object at 0x000001B103A22AC0>> = <secondHomework.calcu.Caluctor object at 0x000001B103A22AC0>.div",
+    "trace": "a = 100, b = 100, expect = 2\nmyfixture = <secondHomework.calcu.Caluctor object at 0x000001B103A22AC0>\n\n    @pytest.mark.run(order=3)\n    @pytest.mark.parametrize(\"a,b,expect\",get_data(\"divdatas\"))\n    @allure.title(\"除法\")\n    def test_div(a,b,expect,myfixture):\n        calc = myfixture\n>       assert expect == calc.div(a,b)\nE       assert 2 == 1.0\nE        +  where 1.0 = <bound method Caluctor.div of <secondHomework.calcu.Caluctor object at 0x000001B103A22AC0>>(100, 100)\nE        +    where <bound method Caluctor.div of <secondHomework.calcu.Caluctor object at 0x000001B103A22AC0>> = <secondHomework.calcu.Caluctor object at 0x000001B103A22AC0>.div\n\ntest_calc_fixture.py:35: AssertionError"
+  },
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "523dc3ea-9781-479f-9edd-d3107f42876f-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "100"
+    },
+    {
+      "name": "b",
+      "value": "100"
+    },
+    {
+      "name": "expect",
+      "value": "2"
+    }
+  ],
+  "start": 1607925944243,
+  "stop": 1607925944244,
+  "uuid": "7863f35a-1e32-4a8a-981f-e83a6880b130",
+  "historyId": "07a652243eac881a55aa67db0b44ff11",
+  "testCaseId": "5076effb625ea2322077a03ccb8b7b91",
+  "fullName": "secondHomework.test_calc_fixture#test_div",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "run(order=3)"
+    },
+    {
+      "name": "parentSuite",
+      "value": "secondHomework"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc_fixture"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MODN6H0"
+    },
+    {
+      "name": "thread",
+      "value": "22668-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "secondHomework.test_calc_fixture"
+    }
+  ]
+}
