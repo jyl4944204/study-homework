@@ -1,0 +1,64 @@
+{
+  "name": "添加成员页面元素为空验证",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "步骤一：断言当姓名为空时，提示内容为“请填写姓名",
+      "status": "passed",
+      "start": 1608353975077,
+      "stop": 1608353975077
+    },
+    {
+      "name": "步骤二：断言当账号为空时，提示内容为“请填写账号",
+      "status": "passed",
+      "start": 1608353981132,
+      "stop": 1608353981132
+    },
+    {
+      "name": "步骤三：断言当手机为空时，提示内容为手机和邮箱不能同时为空",
+      "status": "passed",
+      "start": 1608353987188,
+      "stop": 1608353987188
+    }
+  ],
+  "start": 1608353974838,
+  "stop": 1608353987189,
+  "uuid": "1d0e7672-ea7d-47d1-9274-cfe521eb887c",
+  "historyId": "70e836f55a3a4785c8b80007fdea3802",
+  "testCaseId": "2561958edf8ad432f9c8bb247d41d5e4",
+  "fullName": "thirdHomework.test_wework.Test_weworkClass#test_notnull",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "thirdHomework"
+    },
+    {
+      "name": "suite",
+      "value": "test_wework"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_weworkClass"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MODN6H0"
+    },
+    {
+      "name": "thread",
+      "value": "18728-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "thirdHomework.test_wework"
+    }
+  ]
+}

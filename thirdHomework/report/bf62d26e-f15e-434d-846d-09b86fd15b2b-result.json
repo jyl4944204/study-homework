@@ -1,0 +1,51 @@
+{
+  "name": "获取cookie并保存到yaml文件中",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "7f1d0f1a-bf0e-4dab-b5de-4802f45da93b-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1608353958093,
+  "stop": 1608353959867,
+  "uuid": "205ca05d-4836-49cc-bcc1-d451e18c3549",
+  "historyId": "01bd4676a75d70d30be4823e45ae4e21",
+  "testCaseId": "085e9abd905e081d858b40e2ddabb39b",
+  "fullName": "thirdHomework.test_wework.Test_weworkClass#test_get_cookies",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "thirdHomework"
+    },
+    {
+      "name": "suite",
+      "value": "test_wework"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_weworkClass"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MODN6H0"
+    },
+    {
+      "name": "thread",
+      "value": "18728-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "thirdHomework.test_wework"
+    }
+  ]
+}

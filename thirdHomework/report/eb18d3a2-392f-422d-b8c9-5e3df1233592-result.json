@@ -1,0 +1,50 @@
+{
+  "name": "手机格式验证",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "'1501021635'"
+    }
+  ],
+  "start": 1608354000212,
+  "stop": 1608354009342,
+  "uuid": "8770f85f-23e7-4ba5-8fdc-93a01449c893",
+  "historyId": "33bceef8eadbaf5b4f1eb11d3a99a7d5",
+  "testCaseId": "b3fa806c463f3e3b880c883f1afc15ee",
+  "fullName": "thirdHomework.test_wework.Test_weworkClass#test_phone",
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "thirdHomework"
+    },
+    {
+      "name": "suite",
+      "value": "test_wework"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_weworkClass"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MODN6H0"
+    },
+    {
+      "name": "thread",
+      "value": "18728-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "thirdHomework.test_wework"
+    }
+  ]
+}

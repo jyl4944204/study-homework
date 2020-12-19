@@ -1,0 +1,138 @@
+{
+  "uid": "fbad2a082c98f231",
+  "name": "手机格式验证",
+  "fullName": "thirdHomework.test_wework.Test_weworkClass#test_phone",
+  "historyId": "6561ab1d903498edee9a857f5ba3ff5a",
+  "time": {
+    "start": 1608354045012,
+    "stop": 1608354054143,
+    "duration": 9131
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_skip_sensitive",
+      "time": {
+        "start": 1608354034158,
+        "stop": 1608354034158,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    },
+    {
+      "name": "_verify_url",
+      "time": {
+        "start": 1608353947049,
+        "stop": 1608353947049,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    },
+    {
+      "name": "sensitive_url",
+      "time": {
+        "start": 1608353947049,
+        "stop": 1608353947049,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    },
+    {
+      "name": "base_url",
+      "time": {
+        "start": 1608353947049,
+        "stop": 1608353947049,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "thirdHomework"
+    },
+    {
+      "name": "suite",
+      "value": "test_wework"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_weworkClass"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MODN6H0"
+    },
+    {
+      "name": "thread",
+      "value": "18728-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "thirdHomework.test_wework"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "'rtr24324'"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "fbad2a082c98f231.json",
+  "parameterValues": [
+    "'rtr24324'"
+  ]
+}

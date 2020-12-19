@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Dec 19 13:01:07 CST 2020","Sat Dec 19 13:01:55 CST 2020","48138","thirdHomework","test_wework","Test_weworkClass","","","添加成员测试",""
+"passed","Sat Dec 19 12:59:18 CST 2020","Sat Dec 19 12:59:19 CST 2020","1774","thirdHomework","test_wework","Test_weworkClass","","","获取cookie并保存到yaml文件中",""
+"passed","Sat Dec 19 13:00:22 CST 2020","Sat Dec 19 13:00:31 CST 2020","9140","thirdHomework","test_wework","Test_weworkClass","","","手机格式验证",""
+"passed","Sat Dec 19 13:00:45 CST 2020","Sat Dec 19 13:00:54 CST 2020","9131","thirdHomework","test_wework","Test_weworkClass","","","手机格式验证",""
+"passed","Sat Dec 19 12:59:34 CST 2020","Sat Dec 19 12:59:47 CST 2020","12351","thirdHomework","test_wework","Test_weworkClass","","","添加成员页面元素为空验证",""
+"passed","Sat Dec 19 13:00:00 CST 2020","Sat Dec 19 13:00:09 CST 2020","9130","thirdHomework","test_wework","Test_weworkClass","","","手机格式验证",""

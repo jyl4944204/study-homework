@@ -1,0 +1,190 @@
+{
+  "uid": "2fddb71f31128bf",
+  "name": "添加成员页面元素为空验证",
+  "fullName": "thirdHomework.test_wework.Test_weworkClass#test_notnull",
+  "historyId": "70e836f55a3a4785c8b80007fdea3802",
+  "time": {
+    "start": 1608353974838,
+    "stop": 1608353987189,
+    "duration": 12351
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "_skip_sensitive",
+      "time": {
+        "start": 1608353962153,
+        "stop": 1608353962153,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    },
+    {
+      "name": "_verify_url",
+      "time": {
+        "start": 1608353947049,
+        "stop": 1608353947049,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    },
+    {
+      "name": "sensitive_url",
+      "time": {
+        "start": 1608353947049,
+        "stop": 1608353947049,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    },
+    {
+      "name": "base_url",
+      "time": {
+        "start": 1608353947049,
+        "stop": 1608353947049,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "shouldDisplayMessage": false,
+      "attachmentsCount": 0,
+      "stepsCount": 0,
+      "hasContent": false
+    }
+  ],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "步骤一：断言当姓名为空时，提示内容为“请填写姓名",
+        "time": {
+          "start": 1608353975077,
+          "stop": 1608353975077,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "hasContent": false
+      },
+      {
+        "name": "步骤二：断言当账号为空时，提示内容为“请填写账号",
+        "time": {
+          "start": 1608353981132,
+          "stop": 1608353981132,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "hasContent": false
+      },
+      {
+        "name": "步骤三：断言当手机为空时，提示内容为手机和邮箱不能同时为空",
+        "time": {
+          "start": 1608353987188,
+          "stop": 1608353987188,
+          "duration": 0
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "hasContent": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "shouldDisplayMessage": false,
+    "attachmentsCount": 0,
+    "stepsCount": 3,
+    "hasContent": true
+  },
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "parentSuite",
+      "value": "thirdHomework"
+    },
+    {
+      "name": "suite",
+      "value": "test_wework"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_weworkClass"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-MODN6H0"
+    },
+    {
+      "name": "thread",
+      "value": "18728-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "thirdHomework.test_wework"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "2fddb71f31128bf.json",
+  "parameterValues": []
+}

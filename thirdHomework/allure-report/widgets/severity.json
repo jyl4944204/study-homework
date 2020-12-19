@@ -1,0 +1,68 @@
+[
+  {
+    "uid": "2fddb71f31128bf",
+    "name": "添加成员页面元素为空验证",
+    "time": {
+      "start": 1608353974838,
+      "stop": 1608353987189,
+      "duration": 12351
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "f99b1d5b743cca1b",
+    "name": "获取cookie并保存到yaml文件中",
+    "time": {
+      "start": 1608353958093,
+      "stop": 1608353959867,
+      "duration": 1774
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "76484bcb7a3b0f79",
+    "name": "手机格式验证",
+    "time": {
+      "start": 1608354000212,
+      "stop": 1608354009342,
+      "duration": 9130
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "1aadfc89260c40f2",
+    "name": "添加成员测试",
+    "time": {
+      "start": 1608354067762,
+      "stop": 1608354115900,
+      "duration": 48138
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "69a08f25b0bbb878",
+    "name": "手机格式验证",
+    "time": {
+      "start": 1608354022847,
+      "stop": 1608354031987,
+      "duration": 9140
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "fbad2a082c98f231",
+    "name": "手机格式验证",
+    "time": {
+      "start": 1608354045012,
+      "stop": 1608354054143,
+      "duration": 9131
+    },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

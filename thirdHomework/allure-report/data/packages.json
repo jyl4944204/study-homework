@@ -1,0 +1,102 @@
+{
+  "uid": "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name": "packages",
+  "children": [
+    {
+      "name": "thirdHomework.test_wework",
+      "children": [
+        {
+          "name": "获取cookie并保存到yaml文件中",
+          "uid": "f99b1d5b743cca1b",
+          "parentUid": "5d03ce92c819548b05de149ba6fb811d",
+          "status": "passed",
+          "time": {
+            "start": 1608353958093,
+            "stop": 1608353959867,
+            "duration": 1774
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": []
+        },
+        {
+          "name": "添加成员页面元素为空验证",
+          "uid": "2fddb71f31128bf",
+          "parentUid": "5d03ce92c819548b05de149ba6fb811d",
+          "status": "passed",
+          "time": {
+            "start": 1608353974838,
+            "stop": 1608353987189,
+            "duration": 12351
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": []
+        },
+        {
+          "name": "手机格式验证",
+          "uid": "76484bcb7a3b0f79",
+          "parentUid": "5d03ce92c819548b05de149ba6fb811d",
+          "status": "passed",
+          "time": {
+            "start": 1608354000212,
+            "stop": 1608354009342,
+            "duration": 9130
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'1501021635'"
+          ]
+        },
+        {
+          "name": "手机格式验证",
+          "uid": "69a08f25b0bbb878",
+          "parentUid": "5d03ce92c819548b05de149ba6fb811d",
+          "status": "passed",
+          "time": {
+            "start": 1608354022847,
+            "stop": 1608354031987,
+            "duration": 9140
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'150102163590'"
+          ]
+        },
+        {
+          "name": "手机格式验证",
+          "uid": "fbad2a082c98f231",
+          "parentUid": "5d03ce92c819548b05de149ba6fb811d",
+          "status": "passed",
+          "time": {
+            "start": 1608354045012,
+            "stop": 1608354054143,
+            "duration": 9131
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": [
+            "'rtr24324'"
+          ]
+        },
+        {
+          "name": "添加成员测试",
+          "uid": "1aadfc89260c40f2",
+          "parentUid": "5d03ce92c819548b05de149ba6fb811d",
+          "status": "passed",
+          "time": {
+            "start": 1608354067762,
+            "stop": 1608354115900,
+            "duration": 48138
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": []
+        }
+      ],
+      "uid": "thirdHomework.test_wework"
+    }
+  ]
+}
