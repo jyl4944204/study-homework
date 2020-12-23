@@ -14,7 +14,7 @@ class TestAddDepartment:
         测试添加部门
         :return:
         """
-        name = "ee"
+        name = "gg"
         res = self.main.goto_contact().goto_department().add_department(name)
         assert name in res
 
