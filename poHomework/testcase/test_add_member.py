@@ -1,7 +1,5 @@
 import pytest
-
 from poHomework.page.main_page import Main
-
 
 class TestAddMember:
 

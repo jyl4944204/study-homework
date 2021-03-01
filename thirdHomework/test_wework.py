@@ -7,24 +7,24 @@ from selenium import webdriver
 
 class Test_weworkClass():
 
-    def setup(self):
-        self.driver = webdriver.Chrome()
-        self.driver.implicitly_wait(10)
-        self.driver.get("https://work.weixin.qq.com/wework_admin/loginpage_wx")
-        # 获取cookie
-        with open("cookie.yaml") as f:
-            cookies = yaml.safe_load(f)
-            for cookie in cookies:
-                self.driver.add_cookie(cookie)
-
-        # 进入通讯录页面
-        self.driver.get("https://work.weixin.qq.com/wework_admin/frame#contacts")
-        sleep(5)
-        # 点击添加成员按钮
-        self.driver.find_elements_by_css_selector("a.qui_btn.ww_btn.js_add_member")[2].click()
-
-    def teardown(self):
-        self.driver.quit()
+    # def setup(self):
+    #     self.driver = webdriver.Chrome()
+    #     self.driver.implicitly_wait(10)
+    #     self.driver.get("https://work.weixin.qq.com/wework_admin/loginpage_wx")
+    #     # 获取cookie
+    #     with open("cookie.yaml") as f:
+    #         cookies = yaml.safe_load(f)
+    #         for cookie in cookies:
+    #             self.driver.add_cookie(cookie)
+    #
+    #     # 进入通讯录页面
+    #     self.driver.get("https://work.weixin.qq.com/wework_admin/frame#contacts")
+    #     sleep(5)
+    #     # 点击添加成员按钮
+    #     self.driver.find_elements_by_css_selector("a.qui_btn.ww_btn.js_add_member")[2].click()
+    #
+    # def teardown(self):
+    #     self.driver.quit()
 
     # 获取cookie
     @allure.title("获取cookie并保存到yaml文件中")

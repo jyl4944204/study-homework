@@ -1,6 +1,5 @@
 from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.webdriver import WebDriver
-from selenium.webdriver.support.wait import WebDriverWait
 
 
 class BasePage:

@@ -1,0 +1,4 @@
+- find:
+  action: find_and_click
+- find:
+  action: find_and_click
